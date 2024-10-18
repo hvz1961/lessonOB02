@@ -11,6 +11,7 @@ class User():
         print(f'удален пользователь: {self.name}')
     def __info(self):
         print(self.id, self.name, self.user)
+
     def info(self):
         self.__info()
 class Admin(User):
